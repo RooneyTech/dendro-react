@@ -1,0 +1,26 @@
+node_modules
+.vscode-test/
+*.vsix
+out
+dist
+**/.DS_Store
+
+# Debug screenshots (large files)
+.dev/screenshots/
+
+# Showcase repos for testing and demo videos (~146 MB)
+.dev/showcase/
+
+# Internal onboarding (contains license activation scripts)
+.dev/jack-onboarding/
+
+# IDE/tool-specific config (user preference)
+.vscode/settings.json
+.claude/
+!.claude/commands/
+
+# Private dev notes - now tracked for project continuity
+.dev/briefings/
+.dev/smithery-bundle/mcp-server.js
+.dev/smithery-bundle/*.mcpb
+.dev/smithery-bundle/tools.json

@@ -1,0 +1,42 @@
+{
+  "name": "dendro-react-mcp",
+  "version": "0.8.1",
+  "description": "MCP server for React and React Native codebase analysis — 34 free tools: component trees, per-component complexity, prop flow, rerender risk (React Compiler aware), navigation graphs (Expo Router / Next.js / Remix / React Navigation), context maps, live runtime introspection, and AI-controlled visualization in VS Code.",
+  "mcpName": "io.github.RooneyTech/dendro-react",
+  "bin": {
+    "dendro-react-mcp": "mcp-server.js"
+  },
+  "main": "mcp-server.js",
+  "files": [
+    "mcp-server.js",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "oxc-parser": "^0.111.0"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "react",
+    "react-native",
+    "static-analysis",
+    "component-tree",
+    "ai-agent",
+    "claude",
+    "cursor"
+  ],
+  "license": "MIT",
+  "author": "Rooney Industries LLC",
+  "homepage": "https://dendroreact.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RooneyTech/dendro-react"
+  },
+  "bugs": {
+    "url": "https://github.com/RooneyTech/dendro-feedback/issues"
+  }
+}
