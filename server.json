@@ -1,0 +1,106 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.RooneyTech/dendro-react",
+  "title": "Dendro React",
+  "description": "React codebase semantics for AI agents, with a VS Code visualizer you both share. Free, local.",
+  "version": "0.9.0",
+  "websiteUrl": "https://dendroreact.com",
+  "repository": {
+    "url": "https://github.com/RooneyTech/dendro-react",
+    "source": "github",
+    "id": "RooneyTech/dendro-react"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "dendro-react-mcp",
+      "version": "0.9.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeHint": "node"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "tools": [
+        "get_usage_guide",
+        "get_usage_stats",
+        "analyze_codebase",
+        "quick_audit",
+        "get_component_tree",
+        "get_component_details",
+        "find_component_by_name",
+        "find_components_by_type",
+        "detect_circular_deps",
+        "get_used_by",
+        "get_prop_flow",
+        "get_hook_deps",
+        "get_rerender_risks",
+        "get_navigation_structure",
+        "get_context_map",
+        "get_screen_components",
+        "get_complexity_report",
+        "open_visualizer",
+        "visualize_analysis",
+        "visualize_highlight",
+        "visualize_zoom",
+        "visualize_fit_all",
+        "visualize_annotate",
+        "visualize_trace_flow",
+        "visualize_clear",
+        "visualize_expand",
+        "visualize_collapse",
+        "visualize_batch",
+        "get_runtime_status",
+        "get_live_tree",
+        "get_runtime_state",
+        "export_mermaid",
+        "export_json",
+        "export_svg",
+        "export_markdown",
+        "batch_analysis",
+        "save_snapshot",
+        "list_snapshots",
+        "compare_snapshots",
+        "generate_state_hypotheses",
+        "generate_flow_test",
+        "run_flow_tests",
+        "annotate_tree_with_verification",
+        "trigger_projection",
+        "inspect_live_component",
+        "diff_component_state",
+        "find_state_owner",
+        "modify_runtime_state",
+        "poke_component",
+        "trace_live_prop",
+        "get_live_navigation",
+        "run_audit",
+        "run_sprint_check",
+        "run_ceo_briefing",
+        "run_investor_scorecard",
+        "run_dev_onboarding"
+      ],
+      "frameworks": [
+        "react",
+        "react-native",
+        "expo"
+      ],
+      "features": [
+        "component-tree",
+        "prop-flow-analysis",
+        "circular-dependency-detection",
+        "reverse-import-graph",
+        "context-mapping",
+        "navigation-analysis",
+        "complexity-scoring",
+        "ai-controlled-visualization",
+        "runtime-connection",
+        "live-introspection",
+        "verified-projection",
+        "triggered-projection",
+        "export"
+      ]
+    }
+  }
+}

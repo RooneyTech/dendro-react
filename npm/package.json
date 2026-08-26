@@ -1,0 +1,42 @@
+{
+  "name": "dendro-react-mcp",
+  "version": "0.9.0",
+  "description": "React codebase semantics for AI agents — component contracts, blast radius, rerender risk, effect hygiene, navigation graphs, health audits — plus a VS Code visualizer you both share. Free, local-only.",
+  "mcpName": "io.github.RooneyTech/dendro-react",
+  "bin": {
+    "dendro-react-mcp": "mcp-server.js"
+  },
+  "main": "mcp-server.js",
+  "files": [
+    "mcp-server.js",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "oxc-parser": "^0.111.0"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "react",
+    "react-native",
+    "static-analysis",
+    "component-tree",
+    "ai-agent",
+    "claude",
+    "cursor"
+  ],
+  "license": "MIT",
+  "author": "Rooney Industries LLC",
+  "homepage": "https://dendroreact.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RooneyTech/dendro-react"
+  },
+  "bugs": {
+    "url": "https://github.com/RooneyTech/dendro-feedback/issues"
+  }
+}

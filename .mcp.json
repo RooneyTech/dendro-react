@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dendro-mcp": {
+      "command": "node",
+      "args": ["./dist/mcp-server.js"]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+# Source files (compiled output is in out/)
+src/**
+**/*.ts
+**/*.tsx
+**/*.jsx
+
+# Development and build files
+.dev/**
+.github/**
+.vscode/**
+.vscode-test/**
+.vscode-test.mjs
+webpack.config.js
+webpack.prod.js
+tsconfig.json
+eslint.config.mjs
+
+# Test files
+**/test/**
+**/*.test.js
+**/*.test.ts
+
+# CRITICAL: Exclude unbundled output, include webpack bundle
+# out/ = TypeScript output (has require('oxc-parser') which FAILS without node_modules)
+# dist/ = Webpack bundle (includes all dependencies inline, ~150KB)
+# If you get "Cannot find module" errors, the vsix is using out/ instead of dist/
+# See .dev/HANDOFF.md "Extension Packaging Architecture" for troubleshooting
+out/**
+*.map
+
+# Dependencies NOT included - they're bundled into dist/extension.js by webpack
+node_modules/**
+
+# Old/legacy folders
+reactive/**
+reactive-0.0.2/**
+
+# E2E tests
+e2e/**
+
+# Development/test scripts
+scripts/**
+
+# Internal project files
+.claude/**
+.mpy-workbench/**
+BACKLOG.md
+FEEDBACK.md
+webpack.free.js
+
+# Documentation not needed in extension
+docs/**
+DEVELOPMENT_SCRIPTS.md
+VS_DEVELOPMENT.md
+QuickStartGuide.md
+vsc-extension-quickstart.md
+server.json
+.mcp.json
+
+# System files
+.gitignore
+.git/**
+**/.DS_Store
+**/Thumbs.db
+
+# Screenshots accidentally dropped in root
+Screenshot*
+
+# Landing page (deployed to Cloudflare Pages, not part of the extension)
+web/**
+
+# npm packaging dir (published separately) and skills (distributed via GitHub/skills.sh)
+npm/**
+skills/**
+workers/**

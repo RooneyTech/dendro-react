@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "allowJs": true,
+    "jsx": "react", 
+    "lib": ["ES2021"],
+    "sourceMap": true,
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "out",
+    "types": ["node", "mocha", "vscode"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true
+  },
+  "include": [
+    "src/**/*",
+    "src/server/extension.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode-test",
+    "src/test/fixtures/navigation",
+    "src/test/fixtures/context",
+    "src/test/fixtures/screen-fixtures",
+    "src/test/fixtures/web-routing",
+    "src/test/fixtures/effect-fetch-race"
+  ]
+}
