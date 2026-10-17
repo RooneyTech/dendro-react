@@ -1,0 +1,86 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.RooneyTech/dendro-react",
+  "title": "Dendro React",
+  "description": "React codebase semantics for AI agents, with a VS Code visualizer you both share. Free, local.",
+  "version": "0.9.2",
+  "websiteUrl": "https://dendroreact.com",
+  "repository": {
+    "url": "https://github.com/RooneyTech/dendro-react",
+    "source": "github",
+    "id": "RooneyTech/dendro-react"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "dendro-react-mcp",
+      "version": "0.9.2",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeHint": "node"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "tools": [
+        "get_component_tree",
+        "get_component_details",
+        "get_component_contract",
+        "get_modified_components",
+        "detect_circular_deps",
+        "get_used_by",
+        "get_prop_flow",
+        "get_hook_deps",
+        "get_navigation_structure",
+        "get_context_map",
+        "get_screen_components",
+        "get_complexity_report",
+        "get_rerender_risks",
+        "open_visualizer",
+        "visualize_batch",
+        "export_analysis",
+        "manage_snapshots",
+        "verify_state_flows",
+        "batch_analysis",
+        "trigger_projection",
+        "inspect_live_component",
+        "find_state_owner",
+        "modify_runtime_state",
+        "trace_live_prop",
+        "get_live_navigation",
+        "get_runtime_status",
+        "get_live_tree",
+        "get_runtime_state",
+        "get_context_pack",
+        "get_usage_guide",
+        "submit_feedback",
+        "analyze_codebase",
+        "quick_audit",
+        "visualize_analysis",
+        "run_workflow",
+        "get_usage_stats"
+      ],
+      "frameworks": [
+        "react",
+        "react-native",
+        "expo"
+      ],
+      "features": [
+        "component-tree",
+        "prop-flow-analysis",
+        "circular-dependency-detection",
+        "reverse-import-graph",
+        "context-mapping",
+        "navigation-analysis",
+        "complexity-scoring",
+        "ai-controlled-visualization",
+        "runtime-connection",
+        "live-introspection",
+        "verified-projection",
+        "triggered-projection",
+        "export"
+      ]
+    }
+  }
+}

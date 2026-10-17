@@ -1,0 +1,77 @@
+# Source files (compiled output is in out/)
+src/**
+**/*.ts
+**/*.tsx
+**/*.jsx
+
+# Development and build files
+.dev/**
+.github/**
+.vscode/**
+.vscode-test/**
+.vscode-test.mjs
+webpack.build-stamp.js
+webpack.config.js
+webpack.prod.js
+tsconfig.json
+eslint.config.mjs
+
+# Test files
+**/test/**
+**/*.test.js
+**/*.test.ts
+
+# Run the webpack bundles, not unbundled TypeScript output.
+# OXC's original native loader and portable WASI fallback live in dist/node_modules.
+out/**
+**/*.map
+
+# Root development dependencies stay private; include only the staged parser runtime.
+node_modules/**
+!dist/node_modules/**
+
+# Old/legacy folders
+reactive/**
+reactive-0.0.2/**
+
+# E2E tests
+e2e/**
+
+# Development/test scripts
+scripts/**
+
+# Internal project files
+.claude/**
+.mpy-workbench/**
+BACKLOG.md
+FEEDBACK.md
+webpack.free.js
+
+# Documentation not needed in extension
+docs/**
+DEVELOPMENT_SCRIPTS.md
+VS_DEVELOPMENT.md
+QuickStartGuide.md
+vsc-extension-quickstart.md
+server.json
+.mcp.json
+
+# System files
+.gitignore
+.git/**
+**/.DS_Store
+**/Thumbs.db
+
+# Screenshots accidentally dropped in root
+Screenshot*
+
+# Landing page (deployed to Cloudflare Pages, not part of the extension)
+web/**
+
+# npm packaging dir (published separately) and skills (distributed via GitHub/skills.sh)
+npm/**
+skills/**
+workers/**
+
+# Private experiments and local release-preparation artifacts
+experiments/**
